@@ -1,15 +1,14 @@
-[project]
-name = "file-cleaner"
+[tool.poetry]
+name = "growth-mindset-project"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
-python = ">=3.12.9"
-dependencies = []
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+python = ">=3.8,<3.13"
 
-[tool.poetry]
-name = "file-cleaner"
-version = "0.1.0"
-...
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
 
-[tool.poetry.packages]
-include = "file_cleaner"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
