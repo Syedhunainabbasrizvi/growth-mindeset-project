@@ -4,11 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 authors = ["Your Name <you@example.com>"]
 package-mode = false
-python = ">=3.8,<3.13"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.13"
+streamlit = "^1.32.0"  # Or whichever version you're using
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
